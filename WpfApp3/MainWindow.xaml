@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFC9E6FF">
+
+        <Button x:Name="button" Content="Отправить" HorizontalAlignment="Center" Height="45" Margin="0,235,0,0" VerticalAlignment="Top" Width="156" Click="button_Click" FontSize="18" FontWeight="Bold" BorderBrush="#FF032D01" Foreground="#FF011901" Background="#FFCCE5B4"/>
+        <Label Content="Введите путь до нужного файла" HorizontalAlignment="Center" Height="30" Margin="0,89,0,0" VerticalAlignment="Top" Width="234" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name ="tb" HorizontalAlignment="Center" Height="84" Margin="0,133,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="498" FontSize="20"/>
+    </Grid>
+</Window>
